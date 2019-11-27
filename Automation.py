@@ -27,7 +27,8 @@ def test_login():
     browser.find_element_by_id("welcome").click()
     time.sleep(2)
 
-
+    # Close the browser
     browser.close()
+    # quite 
     browser.quit()
     print("Test Complete")
