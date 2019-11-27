@@ -13,6 +13,7 @@ class LogingTest(unitest.TestCase):
         cls.browser.implicitly_wait(10)
         #browser.maximize_window()
         # Say something
+        # Semething else
 
 
 def test_login():
