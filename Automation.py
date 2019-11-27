@@ -17,5 +17,6 @@ def test_login():
     # Password
     browser.find_element_by_id("txtPassword").send_keys("admin123")
 
-    # click button
-     browser.find_element_by_id("btnLogin").click()
+    # Click button
+    browser.find_element_by_id("btnLogin").click()
+
