@@ -20,3 +20,14 @@ def test_login():
     # Click button
     browser.find_element_by_id("btnLogin").click()
 
+    # The page will load and the user will land into the Welcome page
+
+    # Once the user are in the Welcome page than the user will logou from the system
+
+    browser.find_element_by_id("welcome").click()
+    time.sleep(2)
+
+
+    browser.close()
+    browser.quit()
+    print("Test Complete")
