@@ -1,13 +1,17 @@
 import time
 
 from selenium import webdriver  #
+import unitest
 
+class LogingTest(unitest.TestCase):
 
-def test_setup():
-    global browser
-    browser = webdriver.Firefox()  #
-    browser.implicitly_wait(10)
-    #browser.maximize_window()
+   
+
+    def test_setup(cls):
+        global browser
+        cls.browser = webdriver.Firefox()  #
+        cls.browser.implicitly_wait(10)
+        #browser.maximize_window()
 
 
 def test_login():
