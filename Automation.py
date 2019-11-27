@@ -12,6 +12,7 @@ class LogingTest(unitest.TestCase):
         cls.browser = webdriver.Firefox()  #
         cls.browser.implicitly_wait(10)
         #browser.maximize_window()
+        # Say something
 
 
 def test_login():
